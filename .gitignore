@@ -1,0 +1,23 @@
+# Скомпилированные бинарники
+my_cat/mycat
+my_grep/mygrep
+
+# Временные тестовые файлы (создаются во время make test)
+test_input.txt
+my_cat/test_input.txt
+my_grep/test_input.txt
+
+# Объектные файлы
+*.o
+*.obj
+
+# Файлы сборки
+*.out
+*.exe
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
